@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Анализ расходов</title>
+  <link rel="shortcut icon" href="./icons/icon-72x72.png" type="image/x-icon">
+  <link rel="stylesheet" type= "text/css" href="styles.css">
+  <script src="./assets/js/axios.min.js"></script>
+  <script defer src="./scripts.js"></script>
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="name">Опять просрал деньги?</div>
+      <input type="numder" placeholder="Сумма" id="summ">
+      <div class="checkbox">
+        <input type="checkbox" class="check" id="unexpected">
+        <label for="scales">Невпредвиденный расход</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" class="check" id="profit">
+        <label for="scales">Доход</label>
+      </div>
+      <input type="text" placeholder="Комментарий" id="comment">
+      <button id="save">Внести</button>
+    </div>
+    <div class="menu">
+      <img class="menu_btn" id="main" src="./assets/jpg/home.png">
+      <img class="menu_btn" id="statistics" src="./assets/jpg/statistic.png">
+      <img class="menu_btn" id="settings" src="./assets/jpg/settings.png">
+    </div>
+  </div>
+</body>
+
+</html>
